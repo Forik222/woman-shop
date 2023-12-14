@@ -1,0 +1,240 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: normal;
+    font-style: normal;
+    src: url("../fonts/OpenSans-Regular.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 300;
+    src: url("../fonts/OpenSans-Light.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 600;
+    src: url("../fonts/OpenSans-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: opensans;
+    font-weight: 900;
+    src: url("../fonts/OpenSans-ExtraBold.ttf");
+}
+
+.container-fluid {
+    width: 100%;
+}
+
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.d-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+body {
+    font-family: "opensans", Arial, Helvetica, sans-serif;
+    width: 100%;
+    font-size: 16px;
+}
+
+header > .container {
+    padding: 40px 20px;
+}
+
+header .burgerIcon {
+    width: 60px;
+    display: none;
+    margin: 0!important;
+}
+
+header .container .menu a {
+    font-size: 0.875em;
+    text-decoration: none;
+    color: #4b4b4e;
+    margin: 0 20px;
+}
+
+header .container .menu a:hover, 
+header .container .menu a.active {
+    color: #dfa52b;
+    font-weight: 600;
+    padding-bottom: 7px;
+    border-bottom: 3px solid #ebb217;
+}
+
+header form div {
+    justify-content: center;
+    padding: 10px 20px;
+    border: 1px solid #ebb217;
+    border-radius: 50px;
+    width: 320px;
+}
+
+header form div input[type='text'] {
+    border: none;
+    margin-right: 10px;
+
+}
+
+header form div input[type='submit'] {
+    background: url("../images/main/search_header_icon.png") no-repeat;
+    background-size: cover;
+    width: 15px;
+    height: 15px;
+    border: none;
+}
+
+header form div input[type='submit']:hover {
+    cursor: pointer;
+}
+
+header .cart {
+    align-items: flex-start;
+}
+
+header .cart img {
+    margin-right: 7px;
+}
+
+header .cart div p {
+    font-size: 0.938em;
+    color: #838388;
+}
+
+header .cart div a {
+    font-size: 0.750em;
+    color: #ebb217;
+}
+
+footer {
+    background-color: #4b4b4e;
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+footer .container {
+    align-items: flex-start;
+}
+
+footer .left {
+    align-items: flex-start;
+    margin-left: 20px;
+}
+
+footer .left figure figcaption {
+    color: #f3f3f3;
+    font-size: 0.875em;
+    margin-top: 25px;
+    width: 138px;
+}
+
+footer .left nav {
+    margin-left: 90px;
+}
+
+footer .left nav a {
+    display: block;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin-bottom: 20px;
+    text-decoration: none;
+}
+
+footer .left nav a:hover, footer .left nav a.active {
+    color: #dfa52b;
+}
+
+footer .right div {
+    justify-content: left;
+    width: 458px; 
+}
+
+footer input[type="text"] {
+    padding: 8px 0;
+    width: 100%;
+    background: none;
+    border: none;
+
+}
+
+footer input[type="submit"] {
+    width: 20px;
+    height: 20px;
+    background: url("../images/main/search_footer_icon.png") no-repeat;
+    background-size: cover;
+    border: none;
+    margin-right: 0px;
+}
+
+footer div[class="d-flex"] {
+    border-bottom: 1px solid #ffffff;
+}
+
+footer .right > div {
+    text-align: center;
+    font-size: 0.875em;
+    color: #ffffff;
+    margin-top: 33px;
+    margin-bottom: 15px;
+}
+
+footer .right .box {
+    width: 50px;
+    height: 50px;
+    display: inline-block;
+    margin: 16px 16px 0;
+
+}
+
+footer .right .insta {
+    background: url("../images/main/insta.png") no-repeat;
+    background-size: cover;
+}
+
+footer .right .insta:hover {
+    background: url("../images/main/insta-hover.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .telegram {
+    background: url("../images/main/telegram.png") no-repeat;
+    background-size: cover;
+}
+
+footer .right .telegram:hover {
+    background: url("../images/main/telegram-hover.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+
+footer .right .vk {
+    background: url("../images/main/vk.png") no-repeat;
+    background-size: cover;
+}
+
+footer .right .vk:hover {
+    background: url("../images/main/vk-hover.png") no-repeat;
+    background-size: cover;
+    cursor: pointer;
+}
+footer .copyrights {
+    text-align: center;
+    color: #f3f3f3;
+    font-size: 0.750em;
+    margin-top: 60px;
+    
+}
